@@ -1,0 +1,306 @@
+:root {
+	--spacing:  20px;
+}
+
+html, body {
+	height: 100%;
+	background-color: #E5E5E5;
+}
+
+body {
+	padding: var(--spacing);
+}
+
+header {
+	margin-right: var(--spacing);
+}
+
+header h1 {
+	position: relative;
+	width: 200px;
+	height: 47px;
+	left: 47px;
+	top: 38px;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 47px;
+	/* identical to box height */
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.06em;
+	color: #BA8181;
+	border: 2px solid #000000;
+	text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header h2 {
+	position: relative;
+	display:  flex;
+	margin-top: 20px;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 490;
+}
+
+.form-control {
+	background-color: #BA8181;
+	text-decoration-color: #000000;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	left: 47px;
+	top: 225px;
+}
+
+.dropdown-item {
+	background-color: #E5E5E5;
+}
+
+p {
+	position: relative;
+	color: #000000;
+	font-size: 12px;
+	display: flex;
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Inter';
+	font-style: normal;
+	line-height: 15px;
+	margin-top: 15px;
+}
+
+.navbar-expand-lg {
+	border:  1px solid #000000;
+	align-content: center;
+}
+
+#botaoentrar {
+	position: relative;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+	text-align: center;
+	color: #BA8181;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 1px;
+	border-color: rgba(169, 162, 162, 0.62);
+}
+
+#ou {
+	position: relative;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	display: block;
+	color: #000000;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#botaogoogle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 13px;
+	width: 200px;
+}
+
+#botaofacebook {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	font-size: 13px;
+	width: 200px;
+}
+
+section {
+	margin: 20px;
+	border: solid;
+	border-color: #CFE2EC;
+	border-width: 2px;
+	position: relative;
+	background-color: white;
+	border-radius: 15px;
+	min-height: 270px;
+}
+#botaoreceitas {
+	position: absolute;
+	color: green;
+	left: 60px;
+	bottom: 30px;
+	background: #DDBDBD;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	border-radius: 10px;
+	border-width: 1px;
+	width: 150px;
+	height: 70px;
+}
+
+#botaodespesas {
+	position: absolute;
+	color: red;
+	align-content: flex-end;
+	right: 60px;
+	bottom: 30px;
+	background: #DDBDBD;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	border-radius: 10px;
+	border-width: 1px;
+	width: 150px;
+	height: 70px;
+}
+
+#saldoemcontas {
+	background: #DDBDBD;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 22px;
+	border-radius: 10px;
+	margin-top: 20px;
+	border-width: 1px;
+	width: 170px;
+	height: 80px;
+	position: relative;
+}
+
+#botaodomes {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	display:  block;
+	width: 300px;
+	background: #DDBDBD;
+	border: 1px solid #000000;
+	border-radius: 10px
+}
+
+article {
+	position: relative;
+	min-height: 200px;
+	margin: 20px;
+	background-color: white;
+	border-radius: 15px;
+	border: solid;
+	border-color: #CFE2EC;
+	border-width: 2px;
+}
+
+#barrasuperior {
+	border-color: #000000;
+	border-radius: 10px;
+	background-color: green;
+	margin: 10px 20px 10px 10px;
+	padding: 0;
+}
+
+#barranavegacao {
+	background-color: #DDBDBD;
+	border-radius: 10px;
+	border-color: #000000;
+}
+
+h4 {
+	text-align: 	center;
+}
+
+#educfinanceira {
+	margin-top: 10px;
+	border-radius: 30px;
+	margin-bottom: 15px;
+}
+
+#linkedfinanc {
+	text-align: center;
+	font-size: 	20px;
+}
+
+#creditcard {
+	margin-top: 10px;
+	border-radius: 30px;
+	margin-bottom: 15px;
+}
+
+#linkcreditcard {
+	text-align: center;
+	font-size: 	17px;
+}
+
+#mercado {
+	margin-top: 10px;
+	border-radius: 30px;
+	margin-bottom: 15px;
+	height: 100px;	
+	width: 100px;
+}
+
+h5 {
+	text-align: center;
+	font-size: 	25px;
+}
+
+#indicadores1 {
+	left: 30px;
+	background: #DDBDBD;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	border-radius: 10px;
+	border-width: 1px;
+	width: 150px;
+	height: 50px;
+}
+
+#indicadores2 {
+	left: 30px;
+	background: #DDBDBD;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	border-radius: 10px;
+	border-width: 1px;
+	width: 150px;
+	height: 50px;
+	margin-top: 7px;
+}
+
+#indicadores3 {
+	align-content: center;
+	left: 30px;
+	background: #DDBDBD;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	border-radius: 10px;
+	border-width: 1px;
+	width: 150px;
+	height: 50px;
+	margin-top: 7px;
+}
